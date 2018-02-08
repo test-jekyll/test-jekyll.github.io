@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Intro';
+    src: url('/assets/fonts/Intro/Intro-Regular.eot');
+    src: url('/assets/fonts/Intro/Intro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Intro/Intro-Regular.woff2') format('woff2'),
+        url('/assets/fonts/Intro/Intro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Charter ITC';
+    src: url('/assets/fonts/CharterITC/CharterITC-ReguItal.eot');
+    src: url('/assets/fonts/CharterITC/CharterITC-ReguItal.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/CharterITC/CharterITC-ReguItal.woff2') format('woff2'),
+        url('/assets/fonts/CharterITC/CharterITC-ReguItal.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('/assets/fonts/MinionPro/MinionPro-Regular.eot');
+    src: url('/assets/fonts/MinionPro/MinionPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/MinionPro/MinionPro-Regular.woff2') format('woff2'),
+        url('/assets/fonts/MinionPro/MinionPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('/assets/fonts/PTSans/PTSans-Regular.eot');
+    src: url('/assets/fonts/PTSans/PTSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/PTSans/PTSans-Regular.woff2') format('woff2'),
+        url('/assets/fonts/PTSans/PTSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'intro_regularregular';
+    src: url('/assets/fonts/intro-regular-webfont.eot');
+    src: url('/assets/fonts/intro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/intro-regular-webfont.woff2') format('woff2'),
+         url('/assets/fonts/intro-regular-webfont.woff') format('woff'),
+         url('/assets/fonts/intro-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

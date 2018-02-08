@@ -1,0 +1,279 @@
+@import "fonts"
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700')
+// <!-- vars -->
+// helpers
+.txt-c
+	text-align: center
+	
+
+body 
+	// height: 100vh
+	background: #fff url(/assets/img/main_bg.png) 50% center no-repeat
+	background-size: cover
+	font-family: 'Roboto', sans-serif !important
+	display: flex
+	flex-direction: column
+	min-height: 100vh
+	background-color: $color
+
+
+*
+	margin: 0
+	box-sizing: border-box
+body
+
+main
+	flex-grow: 1
+	flex: 1
+
+.main_btn
+	display: inline-block
+	height: 80px
+	border-radius: 3px 
+	background-color: #ff0000
+	color: #fff
+	font-size: 18px
+	line-height: 100%
+	letter-spacing: 0.72px
+	max-width: 440px
+	padding: 23px 35px !important
+	-webkit-box-shadow: 0px 3px 9px 0px rgba(0,0,0,0.33)
+	-moz-box-shadow: 0px 3px 9px 0px rgba(0,0,0,0.33)
+	box-shadow: 0px 3px 9px 0px rgba(0,0,0,0.33)
+	// &-2
+	// 	padding: 25px 80px
+
+	// word-wrap: inherit
+	// overflow-x: hidden
+	
+
+// Header
+
+
+.header
+	position: relative
+	&:after
+		content: ''
+		position: absolute
+		left: 0
+		right: 0
+		background: url(/assets/img/separate.png) bottom center no-repeat
+		height: 51px
+	.header__tittle p
+		text-align: center
+		
+// End Header
+
+// 
+
+
+// main
+
+
+.hero__text
+	margin-top: 50px
+	text-align: center
+.row_wrap
+	justify-content: center
+
+
+// modal
+
+
+
+// end main
+
+// 2.html
+// main
+.board__wrapp
+	word-wrap:break-word
+	background:  url(/assets/img/content_board.svg) 0 0 no-repeat
+	max-width: 550px
+	height: 703px
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	justify-content: center
+	align-items: center
+
+	
+	
+	&:before
+		content: ""
+		top: 4%
+		position: absolute
+		background:  url(/assets/img/board_pin.svg) 0 0 no-repeat
+		background-size: 48px 68px
+		background-size: contain
+		z-index: 999
+		width: 48px
+		height: 68px
+
+.content__board
+	position: relative
+	
+
+.main__content
+
+.b__author
+	// position: relative
+	&:after
+		content: ""
+		position: absolute
+		left: 30%
+		bottom: 20%
+		width: 220px
+		height: 220px
+		background:  url(/assets/img/b_avatar.png) top center no-repeat
+.b__author
+	p
+		padding-top: 60px
+		padding-bottom: 75px
+
+.b__text
+	h4
+		font-size: 24px
+.b__head
+	p
+		padding-bottom: 84px
+		&:after
+			position: absolute
+			content: ''
+			background:  url(/assets/img/separate_board.svg) 0 0 no-repeat
+			top: 23%
+			left: 30%
+			right: 0
+			width: 294px
+			height: 19px
+.chekl__wrapp	
+	margin-bottom: 45px
+	margin-top: 60px
+.chekl__tittle
+	h4
+		font-size: 24px	
+.chekl__list
+	ul
+		margin: 0
+		padding: 0
+
+	li
+		color: red
+		font-weight: normal
+		font-size: 20px
+		
+	span
+		color: #333
+		font-weight: normal
+
+
+	
+
+
+footer
+	// max-height: 50px !important
+	background: url(/assets/img/footer_bg.png) 0 0 repeat-x
+	// max-height: 100px
+	// position: absolute
+	// bottom: 0
+	// left: 0
+	// right: 0
+
+.active
+	text-decoration: underline
+	
+#navbarResponsive > ul > li>a
+	padding-right: 10px 
+	color: #fff
+#navbarResponsive > ul > li 
+	&.active
+		text-decoration: underline !important
+
+
+.main
+	flex-grow: 1 
+
+// form
+
+#abc
+	width: 100%
+	height: 100%
+	opacity: .95
+	top: 0
+	left: 0
+	display: none
+	position: fixed
+	background-color: #313131
+	z-index: 999
+	overflow: auto
+
+img#close
+	position: absolute
+	right: -14px
+	top: -14px
+	cursor: pointer
+
+div#popupContact
+	position: absolute
+	left: 50%
+	top: 17%
+	margin-left: -202px
+	
+form
+	max-width: 300px
+	min-width: 250px
+	padding: 10px 50px
+	border: 2px solid gray
+	border-radius: 10px
+	font-family: raleway
+	background-color: #fff
+	z-index: 99
+
+p
+	margin-top: 30px
+
+h2
+	background-color: #FEFFED
+	padding: 20px 35px
+	margin: -10px -50px
+	text-align: center
+	border-radius: 10px 10px 0 0
+
+hr
+	margin: 10px -50px
+	border: 0
+	border-top: 1px solid #ccc
+
+input[type=text]
+	width: 100%
+	padding: 10px
+	margin: 15px 0
+	border: 1px solid #ccc
+	// padding-left: 40px
+	font-size: 16px
+	font-family: raleway
+
+
+
+#submit
+	text-decoration: none
+	width: 100%
+	text-align: center
+	display: block
+	background-color: #FFBC00
+	color: #fff
+	border: 1px solid #FFCB00
+	padding: 10px 0
+	font-size: 20px
+	cursor: pointer
+	border-radius: 5px
+
+span
+	color: red
+	font-weight: 700
+
+// OK
+
+.ok__tittle
+	margin: 100px 0
